@@ -23,3 +23,18 @@
     --headings-font-family: 'Cormorant Garamond', serif;
     --body-text-font-family: Inter, sans-serif;
 }
+
+body {
+    background-color: var(--color-alabaster);
+    font-family: var(--body-text-font-family);
+}
+
+h2 {
+    font-family: var(--headings-font-family);
+    color: var(--text-primary);
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid var(--color-purple-muted);
+    padding-bottom: 0.25em;
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
